@@ -16,7 +16,7 @@ class Service(object):
 
     @property
     def delay(self):
-        return self.config.get('FOO_FEATURE_ENABLED', 0)
+        return self.config.get('delay', 0)
 
     @rpc
     def answer(self):
